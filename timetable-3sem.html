@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time table</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* background-color: #222730; */
+            background-image:radial-gradient(#4CAAB3,#393E46 );
+            height: 98vh;
+        }
+        .title{
+            color:#4CAAB3;
+            text-shadow: 1px 0px 20px rgba(20, 20, 20, 0.8);
+        }
+        table{
+            border-collapse: collapse;
+            border: 5px solid #4CAAB3;
+            color: #4CAAB3;
+            background-color:#393E46 ;
+        }
+        td{
+            border: 1px solid;
+            text-align: center;
+            padding:20px 20px 20px 20px;
+            
+        }
+        tr{
+            text-align: center;
+        }
+        .row1{
+            font-weight: 600;
+            border-color: #4CAAB3;
+        }
+        .room,
+        .row2,
+        .days{
+            border-color:#4CAAB3;
+            font-weight: bold;
+        }
+        .room,
+        .mcaa,
+        .days{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="circl"></div>
+    <div>
+        <h1 class="title">TIME TABLE III SEM</h1>
+    </div>
+    <table>
+        <tr class="row1">
+            <td class="room">Room No - 109</td>
+            <td> 1 </td>
+            <td> 2 </td>
+            <td> 3 </td>
+            <td></td>
+            <td> 4 </td>
+            <td> 5 </td>
+            <td> 6 </td>
+        </tr>
+        <tr class="row2">
+            <td class="mcaa row2">II-MCA-A</td>
+            <td class="row2">9:30 to 10:20</td>
+            <td class="row2">10:20 to 11:10</td>
+            <td class="row2">11:10 to 12:00</td>
+            <td class="row2">12:00 to 12:30</td>
+            <td class="row2">12:30 to 1:20</td>
+            <td class="row2">1:20 to 2:10</td>
+            <td class="row2">2:10 to 3:00</td>
+        </tr>
+        <tr>
+            <td class="days">Monday</td>
+            <td>A/C</td>
+            <td class="left-line"> PT</td>
+            <td>PT</td>
+            <td>L</td>
+            <td>ADV JAVA(T)</td>
+            <td>FSD</td>
+            <td>CC</td>
+        </tr>
+        <tr>
+            <td class="days">Tuesday</td>
+            <td>CC LAB</td>
+            <td>CC LAB</td>
+            <td>CC LAB</td>
+            <td>U</td>
+            <td>ADV JAVA(T)</td>
+            <td>AI</td>
+            <td>FSD</td>
+        </tr>
+        <tr>
+            <td class="days">Wednesday</td>
+            <td>A/C</td>
+            <td>CC</td>
+            <td>ADV JAVA</td>
+            <td>N</td>
+            <td>ADV JAVA LAB</td>
+            <td>AI</td>
+            <td>PD</td>
+        </tr>
+        <tr>
+            <td class="days">Thursday</td>
+            <td>ADV JAVA LAB</td>
+            <td>ADV JAVA LAB</td>
+            <td>ADV JAVA LAB</td>
+            <td>C</td>
+            <td>A/C</td>
+            <td>FSD</td>
+            <td>CC</td>
+        </tr>
+        <tr>
+            <td class="days">Friday</td>
+            <td>PD</td>
+            <td>CC</td>
+            <td>ADV JAVA</td>
+            <td>H</td>
+            <td>CC</td>
+            <td>A/C</td>
+            <td>AI</td>
+        </tr>
+    </table>
+</body>
+</html>
