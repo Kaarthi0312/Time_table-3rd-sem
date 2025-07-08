@@ -10,20 +10,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            /* background-color: #222730; */
-            /* background-image:radial-gradient(#4CAAB3,#393E46 ); */
+            background-color: #222730;
+            background-image:radial-gradient(#4CAAB3,#393E46 );
             height: 98vh;
             width: 98vw;
         }
         .title{
-            /* color:#4CAAB3; */
-            /* text-shadow: 1px 0px 20px rgba(20, 20, 20, 0.8); */
+            color:#4CAAB3;
+            text-shadow: 1px 0px 20px rgba(20, 20, 20, 0.8);
         }
         table{
             border-collapse: collapse;
-            /* border: 5px solid #4CAAB3; */
-            /* color: #4CAAB3; */
-            /* background-color:#393E46 ; */
+            border: 5px solid #4CAAB3; 
+            color: #4CAAB3; 
+            background-color:#393E46 ; 
             font-family: Arial;
         }
         td{
@@ -35,20 +35,44 @@
         }
         .row1{
             font-weight: 600;
-            /* border-color: #4CAAB3; */
+            border-color: #4CAAB3;
         }
         .room,
         .row2,
         .days{
-            /* border-color:#4CAAB3; */
+            border-color:#4CAAB3;
             font-weight: bold;
         }
-        /* .room,
+        .room,
         .mcaa,
         .days
         {
             color: orange;
-        } */
+        }
+
+        @media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+        height: 100vh;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    table {
+        font-size: 0.7rem;
+        width: 100%;
+    }
+
+    td, th {
+        padding: 6px;
+    }
+}
     </style>
 </head>
 <body>
@@ -123,40 +147,5 @@
             <td>AI</td>
         </tr>
     </table>
-    <style>
-         @media screen and (max-width: 768px) {
-    body {
-        padding: 10px;
-        height: 100vh;
-        width: auto;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .title {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    table {
-        font-size: 0.7rem;
-        width: 100%;
-        overflow-x: auto;
-        display: block;
-    }
-
-    td, th {
-        padding: 6px;
-    }
-
-    .row1, .row2 {
-        font-size: 0.7rem;
-    }
-
-    .room, .mcaa, .days {
-        font-size: 0.8rem;
-    }
-}
-    </style>
 </body>
 </html>
