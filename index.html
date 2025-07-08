@@ -124,15 +124,39 @@
         </tr>
     </table>
     <style>
-        @media (max-width: 414px){
-            table{
-                font-size: 5px;
-            }
-            td{
-            text-align: center;
-            padding: 1px;  
-        }
-        } 
+         @media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+        height: 100vh;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    table {
+        font-size: 0.7rem;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+
+    td, th {
+        padding: 6px;
+    }
+
+    .row1, .row2 {
+        font-size: 0.7rem;
+    }
+
+    .room, .mcaa, .days {
+        font-size: 0.8rem;
+    }
+}
     </style>
 </body>
 </html>
